@@ -24,6 +24,8 @@ struct CreateEncryptedERCParams {
     address withdrawVerifier;
     address transferVerifier;
     address burnVerifier;
+    // TR: converter only supports one token
+    address convertedToken;
 }
 
 struct AmountPCT {
